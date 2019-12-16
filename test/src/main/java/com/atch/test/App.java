@@ -25,9 +25,9 @@ public class App
     Transaction t = session.beginTransaction();  
       
      Employee e1=new Employee();    
-        e1.setId(4);    
-        e1.setFirstName("rishab");    
-        e1.setLastName("pant");    
+        e1.setId(5);    
+        e1.setFirstName("shreyas");    
+        e1.setLastName("iyer");    
      
    session.save(e1);  
    t.commit();  
